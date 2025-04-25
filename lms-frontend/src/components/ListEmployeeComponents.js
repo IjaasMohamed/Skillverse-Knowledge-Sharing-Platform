@@ -44,7 +44,7 @@ const getAllstudents = () => {
 
         <br/>
         <Link to ="/add-student" className="btn btn-primary mb-2">Add Plan</Link>
-        <h2 className='text-center'>List of Students</h2> <br/>
+        <h2 className='text-center'>List of Plans</h2> <br/>
         <table className='table table-success table-striped' style={{marginTop:"10px",color:"#fff"}}>
             <thead>
                 <th>Learning Plan Id</th>

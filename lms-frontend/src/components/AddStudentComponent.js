@@ -96,7 +96,7 @@ const AddStudentComponent = () => {
       type="text" 
       class="form-control" 
       id="validationCustom02" 
-      placeholder="Address"
+      placeholder="Description"
       value={address} 
       onChange={(e) => setAddress(e.target.value)}
       required 
@@ -113,7 +113,7 @@ const AddStudentComponent = () => {
       type="text" 
       class="form-control" 
       id="validationCustom02" 
-      placeholder="Telephone" 
+      placeholder="hours" 
       value={[tel]}
       onChange={(e) => setTel(e.target.value)}
       required 
@@ -131,7 +131,7 @@ const AddStudentComponent = () => {
       type="text" 
       class="form-control" 
       id="validationCustom02" 
-      placeholder="Nic here" 
+      placeholder="Identifier" 
       required
       value={nic}
       onChange={(e) => setNic(e.target.value)}
