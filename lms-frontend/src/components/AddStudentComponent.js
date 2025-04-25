@@ -20,7 +20,7 @@ const AddStudentComponent = () => {
     if(id){
 
       StudentServices.updateStudent(id,student).then((response) =>{
-        swal("Student Updated!", "updated successfully!", "success");
+        swal("Learning Plan Updated!", "updated successfully!", "success");
         history.push('/students')
       }).catch(error =>{
         console.log(error);
@@ -30,7 +30,7 @@ const AddStudentComponent = () => {
       StudentServices.createStudent(student).then((response) =>{
 
         console.log(response.data)
-        swal("Good job!", "student adding successfully!", "success");
+        swal("Good job!", "Learning Plan adding successfully!", "success");
         history.push('/students');
 
     }).catch(error => {
@@ -57,9 +57,9 @@ const AddStudentComponent = () => {
 
   const title = () => {
     if(id){
-      return <h3 className='text-center'>Update Student</h3>
+      return <h3 className='text-center'>Update Learning Plan</h3>
     }else{
-      return <h3 className='text-center'>Add Student</h3>
+      return <h3 className='text-center'>Add Learning Plan</h3>
     }
   }
 
@@ -74,7 +74,7 @@ const AddStudentComponent = () => {
   <div class="form-row">
     <div class="col-md-4 mb-3">
 
-      <label for="validationCustom01">Student Name</label>
+      <label for="validationCustom01">Learning Plan Name</label>
       <input 
       type="text"
       class="form-control" 
@@ -90,7 +90,7 @@ const AddStudentComponent = () => {
       </div>
     </div>
     <div class="col-md-4 mb-3">
-      <label for="validationCustom02">Student Address</label>
+      <label for="validationCustom02">Plan Description</label>
 
       <input 
       type="text" 
@@ -107,7 +107,7 @@ const AddStudentComponent = () => {
     </div>
     <div class="col-md-4 mb-3">
 
-      <label for="validationCustom02">Student Tel</label>
+      <label for="validationCustom02">Duration</label>
 
       <input 
       type="text" 
@@ -125,7 +125,7 @@ const AddStudentComponent = () => {
   </div>
   <div class="col-md-4 mb-3">
 
-      <label for="validationCustom02">Student Nic</label>
+      <label for="validationCustom02">Plan Identifier</label>
 
       <input 
       type="text" 
@@ -140,7 +140,7 @@ const AddStudentComponent = () => {
         Looks good!
       </div>
     </div>
-  <button class="btn btn-primary" type="submit" onClick={(e) => saveOrupdateStudent(e)}>Save Student</button>
+  <button class="btn btn-primary" type="submit" onClick={(e) => saveOrupdateStudent(e)}>Save Learning Plan</button>
   {/* <Link to ="/students" className="btn btn-primary mb-2">go back</Link> */}
 </form></div>
 

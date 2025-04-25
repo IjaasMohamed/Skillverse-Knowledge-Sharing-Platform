@@ -47,11 +47,11 @@ const getAllstudents = () => {
         <h2 className='text-center'>List of Students</h2> <br/>
         <table className='table table-success table-striped' style={{marginTop:"10px",color:"#fff"}}>
             <thead>
-                <th>Student Id</th>
-                <th>Student Name</th>
-                <th>Student Address</th>
-                <th>Student Tel</th>
-                <th>Student Nic</th>
+                <th>Learning Plan Id</th>
+                <th>Learning Plan Name</th>
+                <th>Plan Description</th>
+                <th>Duration</th>
+                <th>Instructor ID</th>
                 <th>Edit/Update</th>
                 <th>Delete</th>
             </thead>

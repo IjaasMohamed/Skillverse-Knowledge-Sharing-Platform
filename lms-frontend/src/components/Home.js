@@ -78,7 +78,7 @@ function App() {
       <br/>
       <br/>
       <div className='contact_us'>
-        <h2 style={{textAlign:"center",color:"#fff",marginTop:"5px"}}>Sign up to Our Learning Management System</h2>
+        <h2 style={{textAlign:"center",color:"#fff",marginTop:"5px"}}>Sign up to Skillverse</h2>
         <br/>
         <form>
           <input type='email' placeholder='type here your email' className='email-box' />
