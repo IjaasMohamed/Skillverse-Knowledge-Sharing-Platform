@@ -31,9 +31,6 @@ public class StudentEntity {
     @Column(name = "address",length = 200,nullable = false)
     private String address;
 
-//    @Type(type = "json")
-//    @Column(name = "tel",length = 15,nullable = false,columnDefinition = "json")
-//    private ArrayList tel;
     @Column(name="tel",length = 15,nullable = false)
     private String tel;
 
