@@ -59,16 +59,16 @@ Usage
 ## Screenshots
 Below are screenshots showcasing the platform's key features:
 
-![Homepage](path/to/homepage.png)
+![Image](https://github.com/user-attachments/assets/97fb6c0d-6994-4a0c-ae2c-1dd95e0abc5c)
 *Homepage: Displays featured courses like Java Programming, Robotics, and HR Management, with navigation and authentication options.*
 
-![Learning Plans List](path/to/learning-plans-list.png)
+![Image](https://github.com/user-attachments/assets/543b6148-db7b-4537-82d3-bbfc99829c19)
 *Learning Plans List: Shows a table of learning plans with details like name, description, duration, and instructor ID.*
 
-![Learning Plans Management](path/to/learning-plans-management.png)
+![Image](https://github.com/user-attachments/assets/197b03fe-a21f-4e95-b209-460ecdf2c85b)
 *Learning Plans Management: Demonstrates the ability to add, update, or delete plans, with a confirmation pop-up for actions.*
 
-*(Note: Replace path/to/image.png with the actual paths to the images once uploaded to the repository.)*
+![Image](https://github.com/user-attachments/assets/6283487d-f884-4196-a218-8334e9628e26)
 
 ## Contributing
 We welcome contributions to enhance the Skillverse platform! To contribute:
@@ -87,7 +87,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 For questions, feedback, or support, please contact:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [ijaasfouzer@gmail.com](mailto:ijaasfouzer@gmail.com)
 - GitHub: [IjaasMohamed](https://github.com/IjaasMohamed)
 
 ## Acknowledgments
